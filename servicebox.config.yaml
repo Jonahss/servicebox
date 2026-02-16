@@ -1,0 +1,21 @@
+# servicebox.config.yaml
+# Defines the services managed by ServiceBox
+
+services:
+  auth:
+    command: "python3 service.py --name auth-service"
+    port: 8081
+    dependencies: []
+
+  payment:
+    command: "python3 service.py --name payment-service"
+    port: 8082
+    dependencies:
+      - auth
+
+  notification:
+    command: "python3 service.py --name notification-service"
+    port: 8083
+    dependencies:
+      - auth
+      - payment
