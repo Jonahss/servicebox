@@ -21,6 +21,9 @@
     "url": "https://github.com/Jonahss/servicebox/issues"
   },
   "homepage": "https://github.com/Jonahss/servicebox#readme",
+  "bin": {
+    "servicebox": "bin/servicebox"
+  },
   "dependencies": {
     "@types/node": "^25.2.3",
     "js-yaml": "^4.1.1",
