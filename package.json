@@ -1,0 +1,33 @@
+{
+  "name": "servicebox",
+  "version": "1.0.0",
+  "description": "**Time: 45 minutes** | **Language: Your choice** | **AI tools: Encouraged**",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node src/servicebox.js",
+    "cli": "npm run build && node src/servicebox.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonahss/servicebox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jonahss/servicebox/issues"
+  },
+  "homepage": "https://github.com/Jonahss/servicebox#readme",
+  "dependencies": {
+    "@types/node": "^25.2.3",
+    "js-yaml": "^4.1.1",
+    "teen_process": "^4.0.10",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}

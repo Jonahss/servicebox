@@ -1,1 +1,24 @@
 .idea
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+*.d.ts
+*.js.map
+
+# Servicebox state
+.servicebox/
+
+# Editor/OS
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
